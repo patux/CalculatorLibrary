@@ -18,3 +18,7 @@ class TestCalculator:
     def test_multiplication(self):
         assert 6 == calculator.multiply(2, 3)
         assert -15 == calculator.multiply(-3, 5)
+
+    def test_division(self):
+        assert 2 == calculator.divide(4, 2)
+        assert -0.6 == calculator.divide(-3, 5)
