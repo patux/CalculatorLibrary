@@ -1,0 +1,5 @@
+# TODO
+
+- use uv instead of pip
+- remove flake8 and use ruff
+- use github actions and remove circleci
